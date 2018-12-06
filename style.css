@@ -1,13 +1,13 @@
 :root {
     /* setting css variable */
-    --base: #6CD9E8;
+    --base: #ED553B;
     --spacing: 10px;
-    --blur: 10px;
+    --blur: 5px;
 }
 
 body {
-    background: #9FFFDC;
-    color: #000;
+    background: #112F41;
+    color: #F2B134;
     width: 100vw;
     display: flex;
     flex-flow: column wrap;
