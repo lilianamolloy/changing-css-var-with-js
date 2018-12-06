@@ -1,0 +1,1 @@
+const inputs = document.querySelectorAll('.controls input') //selects aall the inputs on the page

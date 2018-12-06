@@ -1,0 +1,36 @@
+:root {
+    /* setting css variable */
+    --base: #6CD9E8;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body {
+    background: #9FFFDC;
+    color: #000;
+    width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: var(--base);
+    font-family: helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size: 70px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    width: 50%;
+    height: 50%;
+    display: block;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
